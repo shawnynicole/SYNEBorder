@@ -1,0 +1,22 @@
+{
+  "name": "SYNEBorder",
+  "version": "0.1.0",
+  "summary": "A short description of SYNEBorder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shawnynicole/SYNEBorder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shawnynicole": "shawnynicole@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shawnynicole/SYNEBorder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SYNEBorder/Classes/**/*"
+}

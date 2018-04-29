@@ -1,0 +1,6 @@
+framework module SYNEBorder {
+  umbrella header "SYNEBorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

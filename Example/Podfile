@@ -1,0 +1,7 @@
+use_frameworks!
+platform :ios, '9.0'
+
+target 'SYNEBorder_Example' do
+  pod 'SYNEBorder', :path => '../'
+
+end

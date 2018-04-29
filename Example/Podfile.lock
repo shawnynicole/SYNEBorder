@@ -1,0 +1,16 @@
+PODS:
+  - SYNEBorder (0.1.0)
+
+DEPENDENCIES:
+  - SYNEBorder (from `../`)
+
+EXTERNAL SOURCES:
+  SYNEBorder:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SYNEBorder: 6052bec3fb3cde967651dcefaf65480323156b1f
+
+PODFILE CHECKSUM: ba1dff53f84695b0b9210d2b9f25f466f606c454
+
+COCOAPODS: 1.4.0
