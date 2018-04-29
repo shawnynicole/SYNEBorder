@@ -27,8 +27,8 @@ Each corner and each edge of the UIView can be customized with a border of diffe
   s.homepage         = 'https://github.com/shawnynicole/SYNEBorder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shawnynicole' => '' }
-  s.source           = { :git => 'https://github.com/shawnynicole/SYNEBorder.git', :tag => s.version.to_s }
+  s.author           = { 'shawnynicole' => '21274059+shawnynicole@users.noreply.github.com' }
+  s.source           = { :git => 'https://github.com/shawnynicole/SYNEBorder.git', :tag => "Release/#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
