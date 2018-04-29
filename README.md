@@ -7,11 +7,15 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first or use  `try pod SYNEBorder`.
+To run the example project, clone the repo, and run `pod install` from the Example directory first or use:
+
+```ruby
+try pod 'SYNEBorder'
+```
 
 ## Requirements
 
-swift 4
+Swift 4
 
 ## Installation
 
