@@ -12,6 +12,12 @@ extension UIView {
     
     public var border: Border {
         
+        get { return _borderView.configuration }
+        set { self._borderView.setConfiguration(newValue) }
+    }
+    
+    internal var _borderView: BorderView {
+        
         let borderView: BorderView = {
             
             if let borderView = subviews.first(where: { $0 is BorderView }) as? BorderView { return borderView }
@@ -24,6 +30,6 @@ extension UIView {
             return borderView
         }()
         
-        return borderView.configuration
+        return borderView
     }
 }

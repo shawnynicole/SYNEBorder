@@ -48,7 +48,15 @@ view.border.width = 2
 // Update left corners to a radius of 10, keeping all previous settings
 view.border.update(corners: .left, width: 1, color: .black, radius: 10, dotted: true)
 
-// Remove all borders
+// Create and configure a new border
+let border = Border()
+border.width = 1
+border.color = .black
+
+// Setting the border removes the old border and applies the new border's settings
+view.border = border
+
+// Remove all borders and corner rounding, returning the view to its original state
 view.border.remove()
 ```
 

@@ -15,7 +15,7 @@ extension UIRectCorner {
     public static let top: UIRectCorner = [.topLeft, .topRight]
     public static let bottom: UIRectCorner = [.bottomLeft, .bottomRight]
     public static let left: UIRectCorner = [.topLeft, .bottomLeft]
-    public static let right: UIRectCorner = [.topLeft, .bottomRight]
+    public static let right: UIRectCorner = [.topRight, .bottomRight]
 }
 
 

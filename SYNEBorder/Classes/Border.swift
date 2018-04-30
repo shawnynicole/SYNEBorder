@@ -12,87 +12,113 @@ public class Border {
     
     // MARK: ************************************  ******************************************
 
-    private weak var borderView: BorderView!
+    internal weak var borderView: BorderView! {
+        didSet {
+            self.addBorderSublayers()
+        }
+    }
     
     // MARK: ************************************  ******************************************
 
     internal init(_ borderView: BorderView) {
         self.borderView = borderView
+        self.addBorderSublayers() // NOTE: didSet is not called for borderView during init
     }
     
     // MARK: ************************************  ******************************************
 
-    public private(set) lazy var edges: BorderEdges = {
+    public init(edges: BorderEdges? = nil, corners: BorderCorners? = nil) {
         
-        let edges = BorderEdges(border: self)
+        if let edges = edges {
+            self.edges = edges
+        }
         
-        self.borderView.layer.addSublayer(edges.top.layer)
-        self.borderView.layer.addSublayer(edges.right.layer)
-        self.borderView.layer.addSublayer(edges.bottom.layer)
-        self.borderView.layer.addSublayer(edges.left.layer)
-        
-        return edges
-    }()
+        if let corners = corners {
+            self.corners = corners
+        }
+    }
     
-    public private(set) lazy var corners: BorderCorners = {
+    public init(edges: UIRectEdge, corners: UIRectCorner, width: CGFloat, color: UIColor, radius: CGFloat, dotted: Bool = false) {
+        self.update(edges: edges, corners: corners, width: width, color: color, radius: radius, dotted: dotted)
+    }
+    
+    // MARK: ************************************  ******************************************
+
+    public private(set) lazy var edges: BorderEdges = BorderEdges(border: self)
+    
+    public private(set) lazy var corners: BorderCorners = BorderCorners(border: self)
+    
+    // MARK: ************************************  ******************************************
+    
+    private func addBorderSublayers() {
         
-        let corners = BorderCorners(border: self)
+        // Remove any existing sublayers, if applicable
         
-        self.borderView.layer.addSublayer(corners.topLeft.layer)
-        self.borderView.layer.addSublayer(corners.topRight.layer)
-        self.borderView.layer.addSublayer(corners.bottomRight.layer)
-        self.borderView.layer.addSublayer(corners.bottomLeft.layer)
+        borderView.layer.sublayers?.removeAll()
         
-        return corners
-    }()
+        // Add edge layers
+        
+        borderView.layer.addSublayer(edges.top.layer)
+        borderView.layer.addSublayer(edges.right.layer)
+        borderView.layer.addSublayer(edges.bottom.layer)
+        borderView.layer.addSublayer(edges.left.layer)
+        
+        // Add corner layers
+        
+        borderView.layer.addSublayer(corners.topLeft.layer)
+        borderView.layer.addSublayer(corners.topRight.layer)
+        borderView.layer.addSublayer(corners.bottomRight.layer)
+        borderView.layer.addSublayer(corners.bottomLeft.layer)
+    }
     
     // MARK: ************************************  ******************************************
 
     /// Changing this property updates the color for all borders in the view
     public var color: UIColor = .clear {
         didSet {
-            edges.update(.all, color: color)
-            corners.update(.allCorners, color: color)
-            updateBorderLayer()
+            edges._update(.all, color: color)
+            corners._update(.allCorners, color: color)
+            update()
         }
     }
     
     /// Changing this property updates the width for all borders in the view
     public var width: CGFloat = 0 {
         didSet {
-            edges.update(.all, width: width)
-            corners.update(.allCorners, width: width)
-            updateBorderLayer()
+            edges._update(.all, width: width)
+            corners._update(.allCorners, width: width)
+            update()
         }
     }
     
     /// Changing this property updates the radius for all corner borders in the view
     public var radius: CGFloat = 0 {
         didSet {
-            corners.update(.allCorners, radius: radius)
-            updateBorderLayer()
+            corners._update(.allCorners, radius: radius)
+            update()
         }
     }
     
     /// Changing this property updates the dotted setting for all borders in the view
     public var dotted: Bool = false {
         didSet {
-            edges.update(.all, dotted: dotted)
-            corners.update(.allCorners, dotted: dotted)
-            updateBorderLayer()
+            edges._update(.all, dotted: dotted)
+            corners._update(.allCorners, dotted: dotted)
+            update()
         }
     }
     
     // MARK: ************************************  ******************************************
     
-    private func updateBorderLayer() {
-        borderView.updateBorderLayer()
+    internal func update() {
+        borderView?.update()
     }
     
     // MARK: ************************************  ******************************************
 
+    /// Removes border and rounded corners
     public func remove() {
-        borderView.removeFromSuperview()
+        borderView?.remove()
     }
     
     // MARK: ************************************  ******************************************
@@ -102,11 +128,11 @@ public class Border {
         
         // Update edges values
         
-        self.edges.update(edges, width: width, color: color, dotted: dotted)
+        self.edges._update(edges, width: width, color: color, dotted: dotted)
         
         // Update border appearance using new values
         
-        updateBorderLayer()
+        update()
     }
     
     /// Updates properties for the specified corners
@@ -114,11 +140,11 @@ public class Border {
         
         // Update corners values
         
-        self.corners.update(corners, width: width, color: color, radius: radius, dotted: dotted)
+        self.corners._update(corners, width: width, color: color, radius: radius, dotted: dotted)
         
         // Update border appearance using new values
         
-        updateBorderLayer()
+        update()
     }
     
     /// Updates properties for the specified edges and/or corners
@@ -126,15 +152,15 @@ public class Border {
         
         // Update edges values
         
-        self.edges.update(edges, width: width, color: color, dotted: dotted)
+        self.edges._update(edges, width: width, color: color, dotted: dotted)
         
         // Update corners values
         
-        self.corners.update(corners, width: width, color: color, radius: radius, dotted: dotted)
+        self.corners._update(corners, width: width, color: color, radius: radius, dotted: dotted)
         
         // Update border appearance using new values
         
-        updateBorderLayer()
+        update()
     }
     
     // MARK: ************************************  ******************************************

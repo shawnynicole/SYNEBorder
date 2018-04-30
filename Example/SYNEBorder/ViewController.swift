@@ -28,11 +28,46 @@ class ViewController: UIViewController {
         let view3 = createView(color: color, frame: CGRect(x: x, y: view2.frame.maxY + space, width: width, height: height))
         let view4 = createView(color: color, frame: CGRect(x: x, y: view3.frame.maxY + space, width: width, height: height))
         
+        // View 1
+        
         view1.border.update(edges: .all, corners: .allCorners, width: 1, color: .black, radius: 20, dotted: true)
         view1.border.update(corners: .allCorners, width: 0, color: .clear, radius: 20)
         view1.border.update(edges: .all, width: 1, color: .blue, dotted: true)
+        
+        /*
+        // Create and configure a new border
+        let border = Border()
+        border.width = 1
+        border.color = .black
+
+        // Setting the border removes the old border and applies the new border's settings
+        view1.border = border
+        */
+        
+        // To remove the border, uncomment this line
         // view1.border.remove()
         
+        /*
+        // Create and configure a new border using `BorderEdges` and `BorderCorners`.
+        let border: Border = {
+            
+            let edges = BorderEdges()
+            edges.top.width = 1
+            edges.top.color = .black
+            
+            let corners = BorderCorners()
+            corners.update(.bottom, width: 1, color: .green, radius: 40)
+            
+            let border = Border(edges: edges, corners: corners)
+            
+            return border
+        }()
+        
+        // Setting the border removes the old border and applies the new border's settings
+        view1.border = border
+        */
+        
+        // View 2
         
         view2.border.update(edges: .top, width: 3, color: .red)
         view2.border.update(corners: .topRight, width: 3, color: .orange, radius: 40, dotted: true)
@@ -48,7 +83,11 @@ class ViewController: UIViewController {
         topLeft.radius = 20
         topLeft.dotted = true
         
+        // View 3
+        
         view3.border.update(corners: .allCorners, width: 10, color: .blue, radius: 40)
+        
+        // View 4
         
         view4.border.update(edges: .all, width: 5, color: .green)
         view4.border.update(corners: [.bottomLeft], width: 0, color: .clear, radius: 10)

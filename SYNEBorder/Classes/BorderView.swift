@@ -14,13 +14,36 @@ internal class BorderView: UIView {
 
     public override func layoutSublayers(of layer: CALayer) {
         super.layoutSublayers(of: layer)
-        
-        print(#function)
-        
+                
         updateBorderLayer()
     }
     
     // MARK: ************************************  ******************************************
+
+    internal func remove() {
+        // Remove masking
+        superview?.layer.mask = nil
+        
+        // Remove border view
+        removeFromSuperview()
+    }
+    
+    // MARK: ************************************  ******************************************
+    
+    internal func setConfiguration(_ border: Border) {
+        
+        // Remove old border's layers
+        self.layer.sublayers?.removeAll()
+        
+        // Assign new border's borderView
+        border.borderView = self
+        
+        // Assign new border
+        self.configuration = border
+        
+        // Update the border's appearance using new border
+        self.updateBorderLayer()
+    }
 
     internal private(set) lazy var configuration: Border = {
         
@@ -31,11 +54,16 @@ internal class BorderView: UIView {
        
         return border
     }()
+
+    // MARK: ************************************  ******************************************
+
+    internal func update() {
+        updateBorderLayer()
+    }
     
     // MARK: ************************************  ******************************************
     
-    internal func updateBorderLayer() {
-        print(#function)
+    private func updateBorderLayer() {
         
         let rect = bounds //FIXME: .insetBy(dx: inset.x, dy: inset.y)
         let edges = configuration.edges

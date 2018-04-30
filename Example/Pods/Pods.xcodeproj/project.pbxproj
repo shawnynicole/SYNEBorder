@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B572ECB41E89C918AE26493D02EF0AC /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D58D8C60B9931AE32A58906CE1FAE3D /* Border.swift */; };
-		275339E7EF63C04213829BF06F36C09F /* SYNEBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CEFD3BE6231D83E2F718C77730DDED /* SYNEBorder-dummy.m */; };
+		06270BD377F8E843A120A8DC33EE2A44 /* SYNEBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B5A3F6482E8A0C5336F645D7F4AFD /* SYNEBorder-dummy.m */; };
+		4410287E8A7ECF2AD26B4BD5155C91E1 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6C3FB0603F4BD3744CA9C1C78570 /* BorderView.swift */; };
 		4A0DFEE368A6F8B4E1917A39C0D403EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A27A35AB828AA1DB9A98A89F4FA0AB3 /* +UIRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E857863DB053FBC4A11A1E8669F4BAA /* +UIRectCorner.swift */; };
 		4B0306C958CB8BCE95909599E4B58216 /* Pods-SYNEBorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E6A32B949085D4468F4A79F20A72F2 /* Pods-SYNEBorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E80ACAFD6B2752C1741A57561DAF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		56D31EE110B6A387FC896534652ADE40 /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4D63F8E27019CD1B98588330AE3DC /* +UIView.swift */; };
-		64B8437865AB5665C925E96E340C689E /* +UIRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8D22F234237CD08B3B9931C2A848 /* +UIRectCorner.swift */; };
-		690B8D159AD353FA5FDB672ABADAB8B3 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F48AB6D1A313F2A5B86D36F4914C8 /* BorderView.swift */; };
+		5B421C3BDB0F893CD11D5A1E5294E172 /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82FB5C886C2953C556C664C130223 /* +UIView.swift */; };
+		63D4C49D21375A5C400BD1868CC70D41 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F02EB28BA82CCB01F2EAC55EDB5C4C /* Border.swift */; };
+		794DA7FE31839E5941AE864A23DDE6C8 /* BorderCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D411F6D5E5C13344E6F374B0104E7 /* BorderCorner.swift */; };
 		8C1E181BFD703979A063F1795DFCAC24 /* Pods-SYNEBorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CB86E17D9F42C7B1D6E17CA0BCF77 /* Pods-SYNEBorder_Example-dummy.m */; };
-		B601B9432541EA34EE3D7A7D9BC6687A /* BorderEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5D69A519A5937976D1B0C9BB71498 /* BorderEdge.swift */; };
-		C454EA6DCF269C408327BA7F0FDAB6C7 /* BorderCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA2A0943EB6ECAA2A2770D8E43F9397 /* BorderCorner.swift */; };
-		F733A9CCF22B34D4CC86A34F17ADA676 /* SYNEBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F46F7307579FDBA28631FBF7BB4EF1 /* SYNEBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B84A11D676528325CAC26747F93020 /* BorderCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D17B568278FFD112C6DE5E124C20FA /* BorderCorners.swift */; };
+		B48801DB3980C178C24E5A5CF6C07B12 /* BorderEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E3630EF8DA02BE2CB9F455ECBD4C7 /* BorderEdge.swift */; };
+		B84D15E978AC1F1CFF25183FCA24A139 /* BorderEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DB04A012058B2A060FAEEF5A034FEF /* BorderEdges.swift */; };
+		F733A9CCF22B34D4CC86A34F17ADA676 /* SYNEBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F869954BF2D0008BA11E422D4F1D007 /* SYNEBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,34 +35,36 @@
 
 /* Begin PBXFileReference section */
 		0B3CB86E17D9F42C7B1D6E17CA0BCF77 /* Pods-SYNEBorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYNEBorder_Example-dummy.m"; sourceTree = "<group>"; };
-		0DA2A0943EB6ECAA2A2770D8E43F9397 /* BorderCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorner.swift; path = SYNEBorder/Classes/BorderCorner.swift; sourceTree = "<group>"; };
-		170B8D22F234237CD08B3B9931C2A848 /* +UIRectCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIRectCorner.swift"; path = "SYNEBorder/Classes/+UIRectCorner.swift"; sourceTree = "<group>"; };
-		1E936B57117A787EE8983C0F48CE1EB2 /* SYNEBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYNEBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D17B568278FFD112C6DE5E124C20FA /* BorderCorners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorners.swift; path = SYNEBorder/Classes/BorderCorners.swift; sourceTree = "<group>"; };
+		1E936B57117A787EE8983C0F48CE1EB2 /* SYNEBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYNEBorder.framework; path = SYNEBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224764A67E1DBF8F2290D85FA14464B9 /* Pods-SYNEBorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYNEBorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		23EDCD0EF10BF71E43BEC5581BD2E675 /* SYNEBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SYNEBorder.podspec; sourceTree = "<group>"; };
-		25F46F7307579FDBA28631FBF7BB4EF1 /* SYNEBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-umbrella.h"; sourceTree = "<group>"; };
 		2CCA7A5BC21798DB6F4B1503E31FC33E /* Pods-SYNEBorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYNEBorder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2E857863DB053FBC4A11A1E8669F4BAA /* +UIRectCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIRectCorner.swift"; path = "SYNEBorder/Classes/+UIRectCorner.swift"; sourceTree = "<group>"; };
 		3A68B7BF68AB71E24E7C86485A1C8D11 /* Pods-SYNEBorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYNEBorder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		40D5BCDD2B46940518C2939709C832DC /* SYNEBorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-prefix.pch"; sourceTree = "<group>"; };
 		424D5F7EAA1AEFFB391AF9D1D91C123E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7CE25F3B25C61F4016F1D8958656D0 /* SYNEBorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYNEBorder.modulemap; sourceTree = "<group>"; };
+		5517C95AD4A63A18420BB9727CB28FD4 /* SYNEBorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-prefix.pch"; sourceTree = "<group>"; };
 		5BBA00057255C73E359F718BF3169DA5 /* Pods-SYNEBorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYNEBorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C7F48AB6D1A313F2A5B86D36F4914C8 /* BorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderView.swift; path = SYNEBorder/Classes/BorderView.swift; sourceTree = "<group>"; };
 		5D6DC3586B4BC1B9966D77D4D9BFB720 /* Pods-SYNEBorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYNEBorder_Example.modulemap"; sourceTree = "<group>"; };
+		60C5D892542DD68E51245A36FDA2C6BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7227E390A57440C0940C35139862C9A6 /* SYNEBorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYNEBorder.modulemap; sourceTree = "<group>"; };
-		74C5D69A519A5937976D1B0C9BB71498 /* BorderEdge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdge.swift; path = SYNEBorder/Classes/BorderEdge.swift; sourceTree = "<group>"; };
-		7D58D8C60B9931AE32A58906CE1FAE3D /* Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Border.swift; path = SYNEBorder/Classes/Border.swift; sourceTree = "<group>"; };
-		82BBE55F7F84BFBF549D4C9F7DCCBE0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DF53E265C53132EBD50F5FECFC20969 /* SYNEBorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYNEBorder.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98CEFD3BE6231D83E2F718C77730DDED /* SYNEBorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYNEBorder-dummy.m"; sourceTree = "<group>"; };
+		6F869954BF2D0008BA11E422D4F1D007 /* SYNEBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-umbrella.h"; sourceTree = "<group>"; };
+		7DC5B2C9397039FA8117F0F20E31292A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7EA82FB5C886C2953C556C664C130223 /* +UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SYNEBorder/Classes/+UIView.swift"; sourceTree = "<group>"; };
+		88F02EB28BA82CCB01F2EAC55EDB5C4C /* Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Border.swift; path = SYNEBorder/Classes/Border.swift; sourceTree = "<group>"; };
+		8FA6F991C5B43234213315A97D4A2A84 /* SYNEBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYNEBorder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		924D411F6D5E5C13344E6F374B0104E7 /* BorderCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorner.swift; path = SYNEBorder/Classes/BorderCorner.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CD28F2704F2C89D0701FB5FB2D3D801 /* Pods-SYNEBorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYNEBorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3BD44ECF980E8A85426C47A04903977 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYNEBorder.xcconfig; sourceTree = "<group>"; };
+		A90B5A3F6482E8A0C5336F645D7F4AFD /* SYNEBorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYNEBorder-dummy.m"; sourceTree = "<group>"; };
+		B7DB04A012058B2A060FAEEF5A034FEF /* BorderEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdges.swift; path = SYNEBorder/Classes/BorderEdges.swift; sourceTree = "<group>"; };
+		CC1C45DD0E64AA2D6486418A14D33495 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E6A32B949085D4468F4A79F20A72F2 /* Pods-SYNEBorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYNEBorder_Example-umbrella.h"; sourceTree = "<group>"; };
-		DA34EC175720CEF89CC2A9E85A40847A /* Pods_SYNEBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYNEBorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E14B851B517ED3B4764D7AC5A6376ECD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D88E3630EF8DA02BE2CB9F455ECBD4C7 /* BorderEdge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdge.swift; path = SYNEBorder/Classes/BorderEdge.swift; sourceTree = "<group>"; };
+		DA34EC175720CEF89CC2A9E85A40847A /* Pods_SYNEBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYNEBorder_Example.framework; path = "Pods-SYNEBorder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFEFC8CCE006816B613E92ED2B541E4 /* Pods-SYNEBorder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYNEBorder_Example-resources.sh"; sourceTree = "<group>"; };
-		F1B4D63F8E27019CD1B98588330AE3DC /* +UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SYNEBorder/Classes/+UIView.swift"; sourceTree = "<group>"; };
+		EFBB6C3FB0603F4BD3744CA9C1C78570 /* BorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderView.swift; path = SYNEBorder/Classes/BorderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12DFB4EB1D2C1A403DB5CC2021F6CE36 /* Development Pods */ = {
+		02CB79545D4CF1A032C8F4FAAD4403E7 /* SYNEBorder */ = {
 			isa = PBXGroup;
 			children = (
-				D2BB541E2F2C2CED575D8825CA233508 /* SYNEBorder */,
+				2E857863DB053FBC4A11A1E8669F4BAA /* +UIRectCorner.swift */,
+				7EA82FB5C886C2953C556C664C130223 /* +UIView.swift */,
+				88F02EB28BA82CCB01F2EAC55EDB5C4C /* Border.swift */,
+				924D411F6D5E5C13344E6F374B0104E7 /* BorderCorner.swift */,
+				12D17B568278FFD112C6DE5E124C20FA /* BorderCorners.swift */,
+				D88E3630EF8DA02BE2CB9F455ECBD4C7 /* BorderEdge.swift */,
+				B7DB04A012058B2A060FAEEF5A034FEF /* BorderEdges.swift */,
+				EFBB6C3FB0603F4BD3744CA9C1C78570 /* BorderView.swift */,
+				4E5029A92995A6AC0700573F4841F542 /* Pod */,
+				4AFFA2E55A6173B5ACB728DB7BB4640C /* Support Files */,
 			);
-			name = "Development Pods";
+			name = SYNEBorder;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		21BDB354538A887BB6E12DD2F0A238A2 /* Products */ = {
@@ -98,6 +112,30 @@
 				1E936B57117A787EE8983C0F48CE1EB2 /* SYNEBorder.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4AFFA2E55A6173B5ACB728DB7BB4640C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C45DD0E64AA2D6486418A14D33495 /* Info.plist */,
+				4B7CE25F3B25C61F4016F1D8958656D0 /* SYNEBorder.modulemap */,
+				A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */,
+				A90B5A3F6482E8A0C5336F645D7F4AFD /* SYNEBorder-dummy.m */,
+				5517C95AD4A63A18420BB9727CB28FD4 /* SYNEBorder-prefix.pch */,
+				6F869954BF2D0008BA11E422D4F1D007 /* SYNEBorder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYNEBorder";
+			sourceTree = "<group>";
+		};
+		4E5029A92995A6AC0700573F4841F542 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				60C5D892542DD68E51245A36FDA2C6BE /* LICENSE */,
+				7DC5B2C9397039FA8117F0F20E31292A /* README.md */,
+				8FA6F991C5B43234213315A97D4A2A84 /* SYNEBorder.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6239C723713BFE8A033DF0BF0878D371 /* Targets Support Files */ = {
@@ -112,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				12DFB4EB1D2C1A403DB5CC2021F6CE36 /* Development Pods */,
+				CA4FB2A0A0EFAED29C452FDF3898BFD1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				21BDB354538A887BB6E12DD2F0A238A2 /* Products */,
 				6239C723713BFE8A033DF0BF0878D371 /* Targets Support Files */,
@@ -145,30 +183,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CBDF25C1CE0BEF18BB267CC2E04F75E0 /* Pod */ = {
+		CA4FB2A0A0EFAED29C452FDF3898BFD1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3BD44ECF980E8A85426C47A04903977 /* LICENSE */,
-				E14B851B517ED3B4764D7AC5A6376ECD /* README.md */,
-				23EDCD0EF10BF71E43BEC5581BD2E675 /* SYNEBorder.podspec */,
+				02CB79545D4CF1A032C8F4FAAD4403E7 /* SYNEBorder */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D2BB541E2F2C2CED575D8825CA233508 /* SYNEBorder */ = {
-			isa = PBXGroup;
-			children = (
-				170B8D22F234237CD08B3B9931C2A848 /* +UIRectCorner.swift */,
-				F1B4D63F8E27019CD1B98588330AE3DC /* +UIView.swift */,
-				7D58D8C60B9931AE32A58906CE1FAE3D /* Border.swift */,
-				0DA2A0943EB6ECAA2A2770D8E43F9397 /* BorderCorner.swift */,
-				74C5D69A519A5937976D1B0C9BB71498 /* BorderEdge.swift */,
-				5C7F48AB6D1A313F2A5B86D36F4914C8 /* BorderView.swift */,
-				CBDF25C1CE0BEF18BB267CC2E04F75E0 /* Pod */,
-				F099271D6C213983998F452DDBE9420A /* Support Files */,
-			);
-			name = SYNEBorder;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -177,20 +197,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F099271D6C213983998F452DDBE9420A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				82BBE55F7F84BFBF549D4C9F7DCCBE0B /* Info.plist */,
-				7227E390A57440C0940C35139862C9A6 /* SYNEBorder.modulemap */,
-				8DF53E265C53132EBD50F5FECFC20969 /* SYNEBorder.xcconfig */,
-				98CEFD3BE6231D83E2F718C77730DDED /* SYNEBorder-dummy.m */,
-				40D5BCDD2B46940518C2939709C832DC /* SYNEBorder-prefix.pch */,
-				25F46F7307579FDBA28631FBF7BB4EF1 /* SYNEBorder-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SYNEBorder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A958D22FB4F1E14EF587555A7E8036 /* Build configuration list for PBXNativeTarget "SYNEBorder" */;
 			buildPhases = (
-				3A742A7936AE8081398BB3334D8A453B /* Sources */,
+				6613314E84A74F4CBC8AE24789F28430 /* Sources */,
 				5E4C333FF50D6BA33C3B1BD301DFF5B2 /* Frameworks */,
 				B9DC02293F20A70A2409E5D9309ED915 /* Headers */,
 			);
@@ -278,17 +284,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3A742A7936AE8081398BB3334D8A453B /* Sources */ = {
+		6613314E84A74F4CBC8AE24789F28430 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B8437865AB5665C925E96E340C689E /* +UIRectCorner.swift in Sources */,
-				56D31EE110B6A387FC896534652ADE40 /* +UIView.swift in Sources */,
-				1B572ECB41E89C918AE26493D02EF0AC /* Border.swift in Sources */,
-				C454EA6DCF269C408327BA7F0FDAB6C7 /* BorderCorner.swift in Sources */,
-				B601B9432541EA34EE3D7A7D9BC6687A /* BorderEdge.swift in Sources */,
-				690B8D159AD353FA5FDB672ABADAB8B3 /* BorderView.swift in Sources */,
-				275339E7EF63C04213829BF06F36C09F /* SYNEBorder-dummy.m in Sources */,
+				4A27A35AB828AA1DB9A98A89F4FA0AB3 /* +UIRectCorner.swift in Sources */,
+				5B421C3BDB0F893CD11D5A1E5294E172 /* +UIView.swift in Sources */,
+				63D4C49D21375A5C400BD1868CC70D41 /* Border.swift in Sources */,
+				794DA7FE31839E5941AE864A23DDE6C8 /* BorderCorner.swift in Sources */,
+				A0B84A11D676528325CAC26747F93020 /* BorderCorners.swift in Sources */,
+				B48801DB3980C178C24E5A5CF6C07B12 /* BorderEdge.swift in Sources */,
+				B84D15E978AC1F1CFF25183FCA24A139 /* BorderEdges.swift in Sources */,
+				4410287E8A7ECF2AD26B4BD5155C91E1 /* BorderView.swift in Sources */,
+				06270BD377F8E843A120A8DC33EE2A44 /* SYNEBorder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +320,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		045B3A3BE286446519D09B57DB83FBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYNEBorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
+				PRODUCT_NAME = SYNEBorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -404,37 +443,6 @@
 			};
 			name = Release;
 		};
-		81876BD7D1DFE796104D68EFDDAE0E55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DF53E265C53132EBD50F5FECFC20969 /* SYNEBorder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYNEBorder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
-				PRODUCT_NAME = SYNEBorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,38 +506,6 @@
 			};
 			name = Debug;
 		};
-		E4ED8165D50DD4BE5A6539CBAC2EBA76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DF53E265C53132EBD50F5FECFC20969 /* SYNEBorder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYNEBorder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
-				PRODUCT_NAME = SYNEBorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		ED04D12687FD074DBDCD219EAAC847CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 224764A67E1DBF8F2290D85FA14464B9 /* Pods-SYNEBorder_Example.debug.xcconfig */;
@@ -564,6 +540,38 @@
 			};
 			name = Debug;
 		};
+		FE5476D4BD4B05EE7759C7FBD80A0DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYNEBorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
+				PRODUCT_NAME = SYNEBorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,8 +587,8 @@
 		37A958D22FB4F1E14EF587555A7E8036 /* Build configuration list for PBXNativeTarget "SYNEBorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81876BD7D1DFE796104D68EFDDAE0E55 /* Debug */,
-				E4ED8165D50DD4BE5A6539CBAC2EBA76 /* Release */,
+				045B3A3BE286446519D09B57DB83FBB6 /* Debug */,
+				FE5476D4BD4B05EE7759C7FBD80A0DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
