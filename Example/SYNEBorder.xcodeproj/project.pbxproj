@@ -33,7 +33,7 @@
 		7BE0EF5D0921CBB2E2E06916 /* Pods_SYNEBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYNEBorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31B07F1681C81B8CAE96D88 /* Pods_SYNEBorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYNEBorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B104E0C1F38128B32DA239 /* Pods-SYNEBorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYNEBorder_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYNEBorder_Example/Pods-SYNEBorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F692D5547C726CB27C7A9AD2 /* SYNEBorder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYNEBorder.podspec; path = ../SYNEBorder.podspec; sourceTree = "<group>"; };
+		F692D5547C726CB27C7A9AD2 /* SYNEBorder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYNEBorder.podspec; path = ../SYNEBorder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

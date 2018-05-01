@@ -31,6 +31,18 @@ public class BorderCorners {
         bottomRight.border = border
     }
     
+    public func copy() -> BorderCorners {
+        
+        let newCorners = BorderCorners()
+        
+        newCorners.topLeft = self.topLeft.copy()
+        newCorners.bottomLeft = self.bottomLeft.copy()
+        newCorners.topRight = self.topRight.copy()
+        newCorners.bottomRight = self.bottomRight.copy()
+        
+        return newCorners
+    }
+    
     internal func _update() {
         self.border?.update()
     }

@@ -31,6 +31,18 @@ public class BorderEdges {
         right.border = border
     }
     
+    public func copy() -> BorderEdges {
+        
+        let newEdges = BorderEdges()
+        
+        newEdges.top = self.top.copy()
+        newEdges.bottom = self.bottom.copy()
+        newEdges.left = self.left.copy()
+        newEdges.right = self.right.copy()
+        
+        return newEdges
+    }
+    
     internal func _update() {
         self.border?.update()
     }

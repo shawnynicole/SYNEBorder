@@ -11,22 +11,40 @@ import UIKit
 public class Border {
     
     // MARK: ************************************  ******************************************
-
-    internal weak var borderView: BorderView! {
+    
+    /// Hides the border without removing it.
+    public var isHidden: Bool = false {
         didSet {
-            self.addBorderSublayers()
+            borderView?.isHidden = isHidden
+        }
+    }
+    
+    /// The border's alpha value.
+    public var alpha: CGFloat = 1 {
+        didSet {
+            borderView?.alpha = alpha
         }
     }
     
     // MARK: ************************************  ******************************************
-
+    
+    internal weak var borderView: BorderView! {
+        didSet {
+            borderView?.isHidden = isHidden
+            borderView?.alpha = alpha
+            addBorderSublayers()
+        }
+    }
+    
+    // MARK: ************************************  ******************************************
+    
     internal init(_ borderView: BorderView) {
         self.borderView = borderView
         self.addBorderSublayers() // NOTE: didSet is not called for borderView during init
     }
     
     // MARK: ************************************  ******************************************
-
+    
     public init(edges: BorderEdges? = nil, corners: BorderCorners? = nil) {
         
         if let edges = edges {
@@ -38,8 +56,21 @@ public class Border {
         }
     }
     
-    public init(edges: UIRectEdge, corners: UIRectCorner, width: CGFloat, color: UIColor, radius: CGFloat, dotted: Bool = false) {
+    public init(edges: UIRectEdge = .all, corners: UIRectCorner = .allCorners, width: CGFloat, color: UIColor, radius: CGFloat = 0, dotted: Bool = false) {
         self.update(edges: edges, corners: corners, width: width, color: color, radius: radius, dotted: dotted)
+    }
+    
+    // MARK: ************************************  ******************************************
+    
+    /// Returns a new instance of `Border` with the same settings.
+    public func copy() -> Border {
+        
+        let edges = self.edges.copy()
+        let corners = self.corners.copy()
+        
+        let newBorder = Border(edges: edges, corners: corners)
+        
+        return newBorder
     }
     
     // MARK: ************************************  ******************************************

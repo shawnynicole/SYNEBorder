@@ -69,6 +69,14 @@ public class BorderCorner {
         self.corner = corner
     }
     
+    public func copy() -> BorderCorner {
+        
+        let newCorner = BorderCorner(corner)
+        newCorner._update(width: width, color: color, radius: radius, dotted: dotted)
+        
+        return newCorner
+    }
+    
     /// Updates the properties, but does not update the layer appearance. Used to update properties, then update the layer appearance after all desired properties are updated.
     internal func _update(width: CGFloat, color: UIColor, radius: CGFloat, dotted: Bool) {
         self._width = width

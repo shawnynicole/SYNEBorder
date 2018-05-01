@@ -69,6 +69,14 @@ public class BorderEdge {
         self.edge = edge
     }
     
+    public func copy() -> BorderEdge {
+        
+        let newEdge = BorderEdge(edge)
+        newEdge._update(width: width, color: color, dotted: dotted)
+        
+        return newEdge
+    }
+    
     /// Updates the properties, but does not update the layer appearance. Used to update properties, then update the layer appearance after all desired properties are updated.
     internal func _update(width: CGFloat, color: UIColor, dotted: Bool) {
         self._width = width

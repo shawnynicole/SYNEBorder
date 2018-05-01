@@ -30,9 +30,31 @@ class ViewController: UIViewController {
         
         // View 1
         
+        // Note: Using view1.border creates a new border reference if one does not exist.
+        // To check if a border exists without creating a border reference, use:
+        if view1.hasBorder {
+            // view does have a border
+        } else {
+            // view does not have a border
+        }
+        
         view1.border.update(edges: .all, corners: .allCorners, width: 1, color: .black, radius: 20, dotted: true)
         view1.border.update(corners: .allCorners, width: 0, color: .clear, radius: 20)
         view1.border.update(edges: .all, width: 1, color: .blue, dotted: true)
+        
+        // To hide the border without removing it, use:
+        // view1.border.isHidden = true
+        
+        // To change the border's alpha value, use:
+        // view1.border.alpha = 0.5
+        
+        // To create a copy of the border, use:
+        let newBorder = view1.border.copy()
+        // This will change the width of newBorder but will not change the width of view1.border.
+        newBorder.width = 5
+        
+        // To apply the new border to the view, use:
+        // view1.border = newBorder
         
         /*
         // Create and configure a new border
