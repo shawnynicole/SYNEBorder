@@ -3,7 +3,7 @@
 //  Border
 //
 //  Created by DeShawn Jackson on 4/28/18.
-//  Copyright © 2018 Piive. All rights reserved.
+//  Copyright © 2018 All rights reserved.
 //
 
 import UIKit

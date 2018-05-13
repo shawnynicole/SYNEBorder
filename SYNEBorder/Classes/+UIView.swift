@@ -3,7 +3,7 @@
 //  Border
 //
 //  Created by DeShawn Jackson on 4/27/18.
-//  Copyright © 2018 Piive. All rights reserved.
+//  Copyright © 2018 All rights reserved.
 //
 
 import UIKit
@@ -14,6 +14,13 @@ extension UIView {
     public var border: Border {
         get { return _borderView.configuration }
         set { self._borderView.setConfiguration(newValue) }
+    }
+    
+    /// Checks if the view has a `Border`, if so, removes it.
+    public func removeBorder() {
+        if hasBorder {
+            border.remove()
+        }
     }
     
     /// Checks if the view has a `Border`.
