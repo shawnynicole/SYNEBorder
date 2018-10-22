@@ -11,6 +11,27 @@ import UIKit
 internal class BorderView: UIView {
     
     // MARK: ************************************  ******************************************
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        commonInit()
+    }
+    
+    convenience init() {
+        self.init(frame: .zero)
+        commonInit()
+    }
+    
+    func commonInit() {
+        isUserInteractionEnabled = false
+    }
+    
+    // MARK: ************************************  ******************************************
 
     public override func layoutSublayers(of layer: CALayer) {
         super.layoutSublayers(of: layer)
