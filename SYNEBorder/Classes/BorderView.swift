@@ -83,6 +83,11 @@ internal class BorderView: UIView {
     }
     
     // MARK: ************************************  ******************************************
+
+    /// Without the widthOffset, borders appear thinner than requested.
+    private let widthOffset: CGFloat = 1
+    
+    // MARK: ************************************  ******************************************
     
     private func updateBorderLayer() {
         
@@ -155,7 +160,7 @@ internal class BorderView: UIView {
             }()
             
             let layer = edge.layer
-            let width = edge.width
+            let width = edge.width + widthOffset
             let color = edge.color
             let dotted = edge.dotted
             
@@ -188,7 +193,7 @@ internal class BorderView: UIView {
             }()
             
             let layer = rectCorner.layer
-            let width = rectCorner.width
+            let width = rectCorner.width + widthOffset
             let color = rectCorner.color
             let dotted = rectCorner.dotted
             
