@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYNEBorder'
-  s.version          = '0.2.4'
+  s.version          = '0.3.0'
   s.summary          = 'Swiftly create custom UIView borders with SYNEBorder.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Each corner and each edge of the UIView can be customized with a border of diffe
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'SYNEBorder/Classes/**/*'
   

@@ -1,6 +1,6 @@
 {
   "name": "SYNEBorder",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "Swiftly create custom UIView borders with SYNEBorder.",
   "description": "Swiftly create custom UIView borders with SYNEBorder.\n\nEach corner and each edge of the UIView can be customized with a border of different color, radius, and/or width. Borders can also be dotted.",
   "homepage": "https://github.com/shawnynicole/SYNEBorder",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/shawnynicole/SYNEBorder.git",
-    "tag": "Release/0.2.0"
+    "tag": "Release/0.3.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "swift_version": "4.0",
-  "source_files": "SYNEBorder/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "SYNEBorder/Classes/**/*",
+  "swift_version": "5.0"
 }

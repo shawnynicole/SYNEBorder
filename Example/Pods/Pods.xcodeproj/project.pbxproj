@@ -7,245 +7,226 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06270BD377F8E843A120A8DC33EE2A44 /* SYNEBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A90B5A3F6482E8A0C5336F645D7F4AFD /* SYNEBorder-dummy.m */; };
-		4410287E8A7ECF2AD26B4BD5155C91E1 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6C3FB0603F4BD3744CA9C1C78570 /* BorderView.swift */; };
-		4A0DFEE368A6F8B4E1917A39C0D403EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A27A35AB828AA1DB9A98A89F4FA0AB3 /* +UIRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E857863DB053FBC4A11A1E8669F4BAA /* +UIRectCorner.swift */; };
-		4B0306C958CB8BCE95909599E4B58216 /* Pods-SYNEBorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E6A32B949085D4468F4A79F20A72F2 /* Pods-SYNEBorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52E80ACAFD6B2752C1741A57561DAF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5B421C3BDB0F893CD11D5A1E5294E172 /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82FB5C886C2953C556C664C130223 /* +UIView.swift */; };
-		63D4C49D21375A5C400BD1868CC70D41 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F02EB28BA82CCB01F2EAC55EDB5C4C /* Border.swift */; };
-		794DA7FE31839E5941AE864A23DDE6C8 /* BorderCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D411F6D5E5C13344E6F374B0104E7 /* BorderCorner.swift */; };
-		8C1E181BFD703979A063F1795DFCAC24 /* Pods-SYNEBorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CB86E17D9F42C7B1D6E17CA0BCF77 /* Pods-SYNEBorder_Example-dummy.m */; };
-		A0B84A11D676528325CAC26747F93020 /* BorderCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D17B568278FFD112C6DE5E124C20FA /* BorderCorners.swift */; };
-		B48801DB3980C178C24E5A5CF6C07B12 /* BorderEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E3630EF8DA02BE2CB9F455ECBD4C7 /* BorderEdge.swift */; };
-		B84D15E978AC1F1CFF25183FCA24A139 /* BorderEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DB04A012058B2A060FAEEF5A034FEF /* BorderEdges.swift */; };
-		F733A9CCF22B34D4CC86A34F17ADA676 /* SYNEBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F869954BF2D0008BA11E422D4F1D007 /* SYNEBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0171F9EA436A37DBABA1F58979D6406A /* BorderCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B7BC441602F3B5EEA3D1D8D7ABD91 /* BorderCorners.swift */; };
+		0777F9373C9792759F41C9282E1BF4F8 /* Pods-SYNEBorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F84814D2DB9EBF1895FB536B76B7A4CE /* Pods-SYNEBorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153169689E86F605EE80F807B386B0F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2FDCEF66E16C8067E9BF9E8996F8B39A /* BorderEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD5904BF94E937A937F8B3AA81D8D /* BorderEdge.swift */; };
+		437A37378D8986F2F60AFCCC439F76B7 /* Pods-SYNEBorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AF6D853C782CAA6900E12078788DB4 /* Pods-SYNEBorder_Example-dummy.m */; };
+		467C8BB042141ADC2285A7ED97995E4F /* BorderCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43159BF5D79535B9CD36718C5D3D213B /* BorderCorner.swift */; };
+		7F793AAC134555E468308B7656E6116D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		87AA3DDA2C5032740A733F879764BA60 /* +UIRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3783A218C8870549B66B1A5EE48850CA /* +UIRectCorner.swift */; };
+		9628D24BD88EA98B62B831C67E7B93E5 /* SYNEBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F763A66BA60E95ADC7B4AD9038FB485F /* SYNEBorder-dummy.m */; };
+		962E4DF7F64830F3D1BE24533F70FBB3 /* SYNEBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC59AA1822F83694E0D69CF4F0DFA11E /* SYNEBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9EA2FBFC7EB7E4A0E3765325DB3011 /* BorderEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475B4406076DE801ED7719BE7D9E5AF3 /* BorderEdges.swift */; };
+		ACC5B13D1A01DAD39E16B7FDD18490D2 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646CD019F338B8C4BC53BA04FEBDBC7 /* Border.swift */; };
+		C32FB4B41A95025196A6511936504254 /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14717F662F9A5612FA5BDABBC8FFD8DB /* +UIView.swift */; };
+		CA54F6EBD8D12EE411C0935940E49679 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01AAD673D8032DD4D88DB1273D84B /* BorderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5F1A6EE62ADFAC653E8527D0AD10C2F /* PBXContainerItemProxy */ = {
+		F87389A011D2945EF0055A311620B2D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E49C098C5FA3AE2EB1CC8CE03404F575;
+			remoteGlobalIDString = 167089A57679CB53F8F7E4BCEE5AEB12;
 			remoteInfo = SYNEBorder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B3CB86E17D9F42C7B1D6E17CA0BCF77 /* Pods-SYNEBorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYNEBorder_Example-dummy.m"; sourceTree = "<group>"; };
-		12D17B568278FFD112C6DE5E124C20FA /* BorderCorners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorners.swift; path = SYNEBorder/Classes/BorderCorners.swift; sourceTree = "<group>"; };
-		1E936B57117A787EE8983C0F48CE1EB2 /* SYNEBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYNEBorder.framework; path = SYNEBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		224764A67E1DBF8F2290D85FA14464B9 /* Pods-SYNEBorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYNEBorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CCA7A5BC21798DB6F4B1503E31FC33E /* Pods-SYNEBorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYNEBorder_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2E857863DB053FBC4A11A1E8669F4BAA /* +UIRectCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIRectCorner.swift"; path = "SYNEBorder/Classes/+UIRectCorner.swift"; sourceTree = "<group>"; };
-		3A68B7BF68AB71E24E7C86485A1C8D11 /* Pods-SYNEBorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYNEBorder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		424D5F7EAA1AEFFB391AF9D1D91C123E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B7CE25F3B25C61F4016F1D8958656D0 /* SYNEBorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYNEBorder.modulemap; sourceTree = "<group>"; };
-		5517C95AD4A63A18420BB9727CB28FD4 /* SYNEBorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-prefix.pch"; sourceTree = "<group>"; };
-		5BBA00057255C73E359F718BF3169DA5 /* Pods-SYNEBorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYNEBorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D6DC3586B4BC1B9966D77D4D9BFB720 /* Pods-SYNEBorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYNEBorder_Example.modulemap"; sourceTree = "<group>"; };
-		60C5D892542DD68E51245A36FDA2C6BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F869954BF2D0008BA11E422D4F1D007 /* SYNEBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-umbrella.h"; sourceTree = "<group>"; };
-		7DC5B2C9397039FA8117F0F20E31292A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7EA82FB5C886C2953C556C664C130223 /* +UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SYNEBorder/Classes/+UIView.swift"; sourceTree = "<group>"; };
-		88F02EB28BA82CCB01F2EAC55EDB5C4C /* Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Border.swift; path = SYNEBorder/Classes/Border.swift; sourceTree = "<group>"; };
-		8FA6F991C5B43234213315A97D4A2A84 /* SYNEBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYNEBorder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		924D411F6D5E5C13344E6F374B0104E7 /* BorderCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorner.swift; path = SYNEBorder/Classes/BorderCorner.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CD28F2704F2C89D0701FB5FB2D3D801 /* Pods-SYNEBorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYNEBorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYNEBorder.xcconfig; sourceTree = "<group>"; };
-		A90B5A3F6482E8A0C5336F645D7F4AFD /* SYNEBorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYNEBorder-dummy.m"; sourceTree = "<group>"; };
-		B7DB04A012058B2A060FAEEF5A034FEF /* BorderEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdges.swift; path = SYNEBorder/Classes/BorderEdges.swift; sourceTree = "<group>"; };
-		CC1C45DD0E64AA2D6486418A14D33495 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3E6A32B949085D4468F4A79F20A72F2 /* Pods-SYNEBorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYNEBorder_Example-umbrella.h"; sourceTree = "<group>"; };
-		D88E3630EF8DA02BE2CB9F455ECBD4C7 /* BorderEdge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdge.swift; path = SYNEBorder/Classes/BorderEdge.swift; sourceTree = "<group>"; };
-		DA34EC175720CEF89CC2A9E85A40847A /* Pods_SYNEBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYNEBorder_Example.framework; path = "Pods-SYNEBorder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDFEFC8CCE006816B613E92ED2B541E4 /* Pods-SYNEBorder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYNEBorder_Example-resources.sh"; sourceTree = "<group>"; };
-		EFBB6C3FB0603F4BD3744CA9C1C78570 /* BorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderView.swift; path = SYNEBorder/Classes/BorderView.swift; sourceTree = "<group>"; };
+		0C4A7D82C49CC78AD2E654508C8BA0ED /* Pods-SYNEBorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYNEBorder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		14717F662F9A5612FA5BDABBC8FFD8DB /* +UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIView.swift"; path = "SYNEBorder/Classes/+UIView.swift"; sourceTree = "<group>"; };
+		1E570F2C13838939734EB92A7EF94E2C /* Pods-SYNEBorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYNEBorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3783A218C8870549B66B1A5EE48850CA /* +UIRectCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "+UIRectCorner.swift"; path = "SYNEBorder/Classes/+UIRectCorner.swift"; sourceTree = "<group>"; };
+		3DA01AAD673D8032DD4D88DB1273D84B /* BorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderView.swift; path = SYNEBorder/Classes/BorderView.swift; sourceTree = "<group>"; };
+		3FCB57BF41130F188423742ABEB74D9D /* SYNEBorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYNEBorder.xcconfig; sourceTree = "<group>"; };
+		4163FC519F3FE4C6935D9304DDB7D5BD /* Pods-SYNEBorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYNEBorder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		43159BF5D79535B9CD36718C5D3D213B /* BorderCorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorner.swift; path = SYNEBorder/Classes/BorderCorner.swift; sourceTree = "<group>"; };
+		475B4406076DE801ED7719BE7D9E5AF3 /* BorderEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdges.swift; path = SYNEBorder/Classes/BorderEdges.swift; sourceTree = "<group>"; };
+		560D817A36CB9D23C27FE027EAE594E3 /* Pods-SYNEBorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYNEBorder_Example.modulemap"; sourceTree = "<group>"; };
+		733463B46DD43EF0112B74C063B85702 /* Pods-SYNEBorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYNEBorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		91F7997250DB071BFCCF54778F6D8F82 /* Pods_SYNEBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYNEBorder_Example.framework; path = "Pods-SYNEBorder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E79280F960C8E46883923F7411964A /* SYNEBorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC59AA1822F83694E0D69CF4F0DFA11E /* SYNEBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYNEBorder-umbrella.h"; sourceTree = "<group>"; };
+		B1E85C285D43FE78A21C5306DE8FA9E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BE3660E12D8728A5D10ED19C1FD352FB /* Pods-SYNEBorder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYNEBorder_Example-Info.plist"; sourceTree = "<group>"; };
+		CE437B44190259CB48AB03607F6E2D0A /* SYNEBorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYNEBorder.modulemap; sourceTree = "<group>"; };
+		D61B7BC441602F3B5EEA3D1D8D7ABD91 /* BorderCorners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderCorners.swift; path = SYNEBorder/Classes/BorderCorners.swift; sourceTree = "<group>"; };
+		D646CD019F338B8C4BC53BA04FEBDBC7 /* Border.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Border.swift; path = SYNEBorder/Classes/Border.swift; sourceTree = "<group>"; };
+		DD94C580E714B367654376F8F5504143 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E5B87166991CC9F58D1AF9CF7225B79F /* SYNEBorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYNEBorder-Info.plist"; sourceTree = "<group>"; };
+		EE3BD5904BF94E937A937F8B3AA81D8D /* BorderEdge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderEdge.swift; path = SYNEBorder/Classes/BorderEdge.swift; sourceTree = "<group>"; };
+		EF67337353DBB0EEFD102D945C1C447F /* SYNEBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYNEBorder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2AF6D853C782CAA6900E12078788DB4 /* Pods-SYNEBorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYNEBorder_Example-dummy.m"; sourceTree = "<group>"; };
+		F763A66BA60E95ADC7B4AD9038FB485F /* SYNEBorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYNEBorder-dummy.m"; sourceTree = "<group>"; };
+		F84814D2DB9EBF1895FB536B76B7A4CE /* Pods-SYNEBorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYNEBorder_Example-umbrella.h"; sourceTree = "<group>"; };
+		FC7669BAAAA2A1F1A1E1BFD2AC3926E4 /* SYNEBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYNEBorder.framework; path = SYNEBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC5DC55811C291DDCF933DDD0F5917A /* Pods-SYNEBorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYNEBorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E4C333FF50D6BA33C3B1BD301DFF5B2 /* Frameworks */ = {
+		443A67B61C45EAC268371A14BB31698F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E80ACAFD6B2752C1741A57561DAF88 /* Foundation.framework in Frameworks */,
+				153169689E86F605EE80F807B386B0F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD97ED0C0AB41A95DB69FC0F9C67225D /* Frameworks */ = {
+		7D2E2A6B012023AAF92C9477C0523535 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A0DFEE368A6F8B4E1917A39C0D403EA /* Foundation.framework in Frameworks */,
+				7F793AAC134555E468308B7656E6116D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02CB79545D4CF1A032C8F4FAAD4403E7 /* SYNEBorder */ = {
+		359002D2CD7717C8C8037445430CAEC1 /* SYNEBorder */ = {
 			isa = PBXGroup;
 			children = (
-				2E857863DB053FBC4A11A1E8669F4BAA /* +UIRectCorner.swift */,
-				7EA82FB5C886C2953C556C664C130223 /* +UIView.swift */,
-				88F02EB28BA82CCB01F2EAC55EDB5C4C /* Border.swift */,
-				924D411F6D5E5C13344E6F374B0104E7 /* BorderCorner.swift */,
-				12D17B568278FFD112C6DE5E124C20FA /* BorderCorners.swift */,
-				D88E3630EF8DA02BE2CB9F455ECBD4C7 /* BorderEdge.swift */,
-				B7DB04A012058B2A060FAEEF5A034FEF /* BorderEdges.swift */,
-				EFBB6C3FB0603F4BD3744CA9C1C78570 /* BorderView.swift */,
-				4E5029A92995A6AC0700573F4841F542 /* Pod */,
-				4AFFA2E55A6173B5ACB728DB7BB4640C /* Support Files */,
+				3783A218C8870549B66B1A5EE48850CA /* +UIRectCorner.swift */,
+				14717F662F9A5612FA5BDABBC8FFD8DB /* +UIView.swift */,
+				D646CD019F338B8C4BC53BA04FEBDBC7 /* Border.swift */,
+				43159BF5D79535B9CD36718C5D3D213B /* BorderCorner.swift */,
+				D61B7BC441602F3B5EEA3D1D8D7ABD91 /* BorderCorners.swift */,
+				EE3BD5904BF94E937A937F8B3AA81D8D /* BorderEdge.swift */,
+				475B4406076DE801ED7719BE7D9E5AF3 /* BorderEdges.swift */,
+				3DA01AAD673D8032DD4D88DB1273D84B /* BorderView.swift */,
+				3E5E0EB3154F056699F00A4436CFA449 /* Pod */,
+				9E49A9E22370E3ADB6D0631C34D78993 /* Support Files */,
 			);
 			name = SYNEBorder;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		21BDB354538A887BB6E12DD2F0A238A2 /* Products */ = {
+		3E5E0EB3154F056699F00A4436CFA449 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DA34EC175720CEF89CC2A9E85A40847A /* Pods_SYNEBorder_Example.framework */,
-				1E936B57117A787EE8983C0F48CE1EB2 /* SYNEBorder.framework */,
+				DD94C580E714B367654376F8F5504143 /* LICENSE */,
+				B1E85C285D43FE78A21C5306DE8FA9E3 /* README.md */,
+				EF67337353DBB0EEFD102D945C1C447F /* SYNEBorder.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		4AFFA2E55A6173B5ACB728DB7BB4640C /* Support Files */ = {
+		9E49A9E22370E3ADB6D0631C34D78993 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC1C45DD0E64AA2D6486418A14D33495 /* Info.plist */,
-				4B7CE25F3B25C61F4016F1D8958656D0 /* SYNEBorder.modulemap */,
-				A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */,
-				A90B5A3F6482E8A0C5336F645D7F4AFD /* SYNEBorder-dummy.m */,
-				5517C95AD4A63A18420BB9727CB28FD4 /* SYNEBorder-prefix.pch */,
-				6F869954BF2D0008BA11E422D4F1D007 /* SYNEBorder-umbrella.h */,
+				CE437B44190259CB48AB03607F6E2D0A /* SYNEBorder.modulemap */,
+				3FCB57BF41130F188423742ABEB74D9D /* SYNEBorder.xcconfig */,
+				F763A66BA60E95ADC7B4AD9038FB485F /* SYNEBorder-dummy.m */,
+				E5B87166991CC9F58D1AF9CF7225B79F /* SYNEBorder-Info.plist */,
+				98E79280F960C8E46883923F7411964A /* SYNEBorder-prefix.pch */,
+				AC59AA1822F83694E0D69CF4F0DFA11E /* SYNEBorder-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SYNEBorder";
 			sourceTree = "<group>";
 		};
-		4E5029A92995A6AC0700573F4841F542 /* Pod */ = {
+		A01E686AC2DB186D4E8981F5964D3592 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60C5D892542DD68E51245A36FDA2C6BE /* LICENSE */,
-				7DC5B2C9397039FA8117F0F20E31292A /* README.md */,
-				8FA6F991C5B43234213315A97D4A2A84 /* SYNEBorder.podspec */,
+				359002D2CD7717C8C8037445430CAEC1 /* SYNEBorder */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6239C723713BFE8A033DF0BF0878D371 /* Targets Support Files */ = {
+		AF5DBB2E7C5F7E26AB14123DEFD69F48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8264F9AF592E94E4E93BA72F6097C54 /* Pods-SYNEBorder_Example */,
+				91F7997250DB071BFCCF54778F6D8F82 /* Pods_SYNEBorder_Example.framework */,
+				FC7669BAAAA2A1F1A1E1BFD2AC3926E4 /* SYNEBorder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A01E686AC2DB186D4E8981F5964D3592 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AF5DBB2E7C5F7E26AB14123DEFD69F48 /* Products */,
+				F1D147E5937F3B90CB8DE92FA5F6315F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D147E5937F3B90CB8DE92FA5F6315F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29F597F698AB45AECCAF5280699FA47 /* Pods-SYNEBorder_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		F29F597F698AB45AECCAF5280699FA47 /* Pods-SYNEBorder_Example */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CA4FB2A0A0EFAED29C452FDF3898BFD1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				21BDB354538A887BB6E12DD2F0A238A2 /* Products */,
-				6239C723713BFE8A033DF0BF0878D371 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A8264F9AF592E94E4E93BA72F6097C54 /* Pods-SYNEBorder_Example */ = {
-			isa = PBXGroup;
-			children = (
-				424D5F7EAA1AEFFB391AF9D1D91C123E /* Info.plist */,
-				5D6DC3586B4BC1B9966D77D4D9BFB720 /* Pods-SYNEBorder_Example.modulemap */,
-				9CD28F2704F2C89D0701FB5FB2D3D801 /* Pods-SYNEBorder_Example-acknowledgements.markdown */,
-				5BBA00057255C73E359F718BF3169DA5 /* Pods-SYNEBorder_Example-acknowledgements.plist */,
-				0B3CB86E17D9F42C7B1D6E17CA0BCF77 /* Pods-SYNEBorder_Example-dummy.m */,
-				2CCA7A5BC21798DB6F4B1503E31FC33E /* Pods-SYNEBorder_Example-frameworks.sh */,
-				EDFEFC8CCE006816B613E92ED2B541E4 /* Pods-SYNEBorder_Example-resources.sh */,
-				D3E6A32B949085D4468F4A79F20A72F2 /* Pods-SYNEBorder_Example-umbrella.h */,
-				224764A67E1DBF8F2290D85FA14464B9 /* Pods-SYNEBorder_Example.debug.xcconfig */,
-				3A68B7BF68AB71E24E7C86485A1C8D11 /* Pods-SYNEBorder_Example.release.xcconfig */,
+				560D817A36CB9D23C27FE027EAE594E3 /* Pods-SYNEBorder_Example.modulemap */,
+				FCC5DC55811C291DDCF933DDD0F5917A /* Pods-SYNEBorder_Example-acknowledgements.markdown */,
+				733463B46DD43EF0112B74C063B85702 /* Pods-SYNEBorder_Example-acknowledgements.plist */,
+				F2AF6D853C782CAA6900E12078788DB4 /* Pods-SYNEBorder_Example-dummy.m */,
+				4163FC519F3FE4C6935D9304DDB7D5BD /* Pods-SYNEBorder_Example-frameworks.sh */,
+				BE3660E12D8728A5D10ED19C1FD352FB /* Pods-SYNEBorder_Example-Info.plist */,
+				F84814D2DB9EBF1895FB536B76B7A4CE /* Pods-SYNEBorder_Example-umbrella.h */,
+				1E570F2C13838939734EB92A7EF94E2C /* Pods-SYNEBorder_Example.debug.xcconfig */,
+				0C4A7D82C49CC78AD2E654508C8BA0ED /* Pods-SYNEBorder_Example.release.xcconfig */,
 			);
 			name = "Pods-SYNEBorder_Example";
 			path = "Target Support Files/Pods-SYNEBorder_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA4FB2A0A0EFAED29C452FDF3898BFD1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				02CB79545D4CF1A032C8F4FAAD4403E7 /* SYNEBorder */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		680398CA0CD8CCFB7CAD9517949638EF /* Headers */ = {
+		3C424B51638884EEAB830D4D0369BCF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B0306C958CB8BCE95909599E4B58216 /* Pods-SYNEBorder_Example-umbrella.h in Headers */,
+				0777F9373C9792759F41C9282E1BF4F8 /* Pods-SYNEBorder_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9DC02293F20A70A2409E5D9309ED915 /* Headers */ = {
+		C4E0123249670C910F021CAB15F7589D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F733A9CCF22B34D4CC86A34F17ADA676 /* SYNEBorder-umbrella.h in Headers */,
+				962E4DF7F64830F3D1BE24533F70FBB3 /* SYNEBorder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BE168F7439E8652CB2C2F1C1BBD29C22 /* Pods-SYNEBorder_Example */ = {
+		167089A57679CB53F8F7E4BCEE5AEB12 /* SYNEBorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F96F771B97863B81837A2E90D7610277 /* Build configuration list for PBXNativeTarget "Pods-SYNEBorder_Example" */;
+			buildConfigurationList = 99D3349B8848AFDEC91024A7AC638940 /* Build configuration list for PBXNativeTarget "SYNEBorder" */;
 			buildPhases = (
-				902C077D62AC8714B0A88EA0CED82B87 /* Sources */,
-				BD97ED0C0AB41A95DB69FC0F9C67225D /* Frameworks */,
-				680398CA0CD8CCFB7CAD9517949638EF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92E1D691ACA6DC09164283DDCB948A93 /* PBXTargetDependency */,
-			);
-			name = "Pods-SYNEBorder_Example";
-			productName = "Pods-SYNEBorder_Example";
-			productReference = DA34EC175720CEF89CC2A9E85A40847A /* Pods_SYNEBorder_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E49C098C5FA3AE2EB1CC8CE03404F575 /* SYNEBorder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37A958D22FB4F1E14EF587555A7E8036 /* Build configuration list for PBXNativeTarget "SYNEBorder" */;
-			buildPhases = (
-				6613314E84A74F4CBC8AE24789F28430 /* Sources */,
-				5E4C333FF50D6BA33C3B1BD301DFF5B2 /* Frameworks */,
-				B9DC02293F20A70A2409E5D9309ED915 /* Headers */,
+				C4E0123249670C910F021CAB15F7589D /* Headers */,
+				9216B1DD174F210D59E2095ED0C16D18 /* Sources */,
+				443A67B61C45EAC268371A14BB31698F /* Frameworks */,
+				B583453FFE1E1E713EFE58B664489DAD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -253,76 +234,146 @@
 			);
 			name = SYNEBorder;
 			productName = SYNEBorder;
-			productReference = 1E936B57117A787EE8983C0F48CE1EB2 /* SYNEBorder.framework */;
+			productReference = FC7669BAAAA2A1F1A1E1BFD2AC3926E4 /* SYNEBorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6FB2F3488A032076C52B670647C6239 /* Pods-SYNEBorder_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9BCB056F2BBFD460716834800E5875 /* Build configuration list for PBXNativeTarget "Pods-SYNEBorder_Example" */;
+			buildPhases = (
+				3C424B51638884EEAB830D4D0369BCF1 /* Headers */,
+				806195D6CAE9EA1B6BB65BA6CB0AB380 /* Sources */,
+				7D2E2A6B012023AAF92C9477C0523535 /* Frameworks */,
+				D0BD5F343D68B0ADCD5A90419B3F8360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC34E4E5F3B410789523D141B54AA4B /* PBXTargetDependency */,
+			);
+			name = "Pods-SYNEBorder_Example";
+			productName = "Pods-SYNEBorder_Example";
+			productReference = 91F7997250DB071BFCCF54778F6D8F82 /* Pods_SYNEBorder_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 21BDB354538A887BB6E12DD2F0A238A2 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF5DBB2E7C5F7E26AB14123DEFD69F48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE168F7439E8652CB2C2F1C1BBD29C22 /* Pods-SYNEBorder_Example */,
-				E49C098C5FA3AE2EB1CC8CE03404F575 /* SYNEBorder */,
+				A6FB2F3488A032076C52B670647C6239 /* Pods-SYNEBorder_Example */,
+				167089A57679CB53F8F7E4BCEE5AEB12 /* SYNEBorder */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		6613314E84A74F4CBC8AE24789F28430 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		B583453FFE1E1E713EFE58B664489DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A27A35AB828AA1DB9A98A89F4FA0AB3 /* +UIRectCorner.swift in Sources */,
-				5B421C3BDB0F893CD11D5A1E5294E172 /* +UIView.swift in Sources */,
-				63D4C49D21375A5C400BD1868CC70D41 /* Border.swift in Sources */,
-				794DA7FE31839E5941AE864A23DDE6C8 /* BorderCorner.swift in Sources */,
-				A0B84A11D676528325CAC26747F93020 /* BorderCorners.swift in Sources */,
-				B48801DB3980C178C24E5A5CF6C07B12 /* BorderEdge.swift in Sources */,
-				B84D15E978AC1F1CFF25183FCA24A139 /* BorderEdges.swift in Sources */,
-				4410287E8A7ECF2AD26B4BD5155C91E1 /* BorderView.swift in Sources */,
-				06270BD377F8E843A120A8DC33EE2A44 /* SYNEBorder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		902C077D62AC8714B0A88EA0CED82B87 /* Sources */ = {
+		D0BD5F343D68B0ADCD5A90419B3F8360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806195D6CAE9EA1B6BB65BA6CB0AB380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1E181BFD703979A063F1795DFCAC24 /* Pods-SYNEBorder_Example-dummy.m in Sources */,
+				437A37378D8986F2F60AFCCC439F76B7 /* Pods-SYNEBorder_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9216B1DD174F210D59E2095ED0C16D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AA3DDA2C5032740A733F879764BA60 /* +UIRectCorner.swift in Sources */,
+				C32FB4B41A95025196A6511936504254 /* +UIView.swift in Sources */,
+				ACC5B13D1A01DAD39E16B7FDD18490D2 /* Border.swift in Sources */,
+				467C8BB042141ADC2285A7ED97995E4F /* BorderCorner.swift in Sources */,
+				0171F9EA436A37DBABA1F58979D6406A /* BorderCorners.swift in Sources */,
+				2FDCEF66E16C8067E9BF9E8996F8B39A /* BorderEdge.swift in Sources */,
+				AC9EA2FBFC7EB7E4A0E3765325DB3011 /* BorderEdges.swift in Sources */,
+				CA54F6EBD8D12EE411C0935940E49679 /* BorderView.swift in Sources */,
+				9628D24BD88EA98B62B831C67E7B93E5 /* SYNEBorder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		92E1D691ACA6DC09164283DDCB948A93 /* PBXTargetDependency */ = {
+		1DC34E4E5F3B410789523D141B54AA4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SYNEBorder;
-			target = E49C098C5FA3AE2EB1CC8CE03404F575 /* SYNEBorder */;
-			targetProxy = B5F1A6EE62ADFAC653E8527D0AD10C2F /* PBXContainerItemProxy */;
+			target = 167089A57679CB53F8F7E4BCEE5AEB12 /* SYNEBorder */;
+			targetProxy = F87389A011D2945EF0055A311620B2D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		045B3A3BE286446519D09B57DB83FBB6 /* Debug */ = {
+		0883854FA718BE7C365B5D2D9FC0F86A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */;
+			baseConfigurationReference = 1E570F2C13838939734EB92A7EF94E2C /* Pods-SYNEBorder_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYNEBorder_Example/Pods-SYNEBorder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYNEBorder_Example/Pods-SYNEBorder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19086C2863C28743E9691ED4B005D69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCB57BF41130F188423742ABEB74D9D /* SYNEBorder.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -334,24 +385,56 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYNEBorder/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SYNEBorder/SYNEBorder-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
+				PRODUCT_MODULE_NAME = SYNEBorder;
 				PRODUCT_NAME = SYNEBorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20915F7ACFB90F17BB062C0D55FB57F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCB57BF41130F188423742ABEB74D9D /* SYNEBorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYNEBorder/SYNEBorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
+				PRODUCT_MODULE_NAME = SYNEBorder;
+				PRODUCT_NAME = SYNEBorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +466,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -402,48 +484,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		594C6304F204D987E287D2D9915D4A2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A68B7BF68AB71E24E7C86485A1C8D11 /* Pods-SYNEBorder_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SYNEBorder_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SYNEBorder_Example/Pods-SYNEBorder_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SYNEBorder_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -475,7 +526,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -496,20 +546,23 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		ED04D12687FD074DBDCD219EAAC847CA /* Debug */ = {
+		926E0E515AE8746B64A255FE01E21201 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 224764A67E1DBF8F2290D85FA14464B9 /* Pods-SYNEBorder_Example.debug.xcconfig */;
+			baseConfigurationReference = 0C4A7D82C49CC78AD2E654508C8BA0ED /* Pods-SYNEBorder_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -519,7 +572,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SYNEBorder_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYNEBorder_Example/Pods-SYNEBorder_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -529,42 +582,9 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SYNEBorder_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE5476D4BD4B05EE7759C7FBD80A0DAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A57BECC219AA55EC5D6954D06E847A2F /* SYNEBorder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SYNEBorder/SYNEBorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYNEBorder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYNEBorder/SYNEBorder.modulemap";
-				PRODUCT_NAME = SYNEBorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -575,34 +595,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
-				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A958D22FB4F1E14EF587555A7E8036 /* Build configuration list for PBXNativeTarget "SYNEBorder" */ = {
+		6B9BCB056F2BBFD460716834800E5875 /* Build configuration list for PBXNativeTarget "Pods-SYNEBorder_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				045B3A3BE286446519D09B57DB83FBB6 /* Debug */,
-				FE5476D4BD4B05EE7759C7FBD80A0DAE /* Release */,
+				0883854FA718BE7C365B5D2D9FC0F86A /* Debug */,
+				926E0E515AE8746B64A255FE01E21201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F96F771B97863B81837A2E90D7610277 /* Build configuration list for PBXNativeTarget "Pods-SYNEBorder_Example" */ = {
+		99D3349B8848AFDEC91024A7AC638940 /* Build configuration list for PBXNativeTarget "SYNEBorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED04D12687FD074DBDCD219EAAC847CA /* Debug */,
-				594C6304F204D987E287D2D9915D4A2D /* Release */,
+				20915F7ACFB90F17BB062C0D55FB57F0 /* Debug */,
+				19086C2863C28743E9691ED4B005D69E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
