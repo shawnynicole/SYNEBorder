@@ -15,7 +15,7 @@ try pod 'SYNEBorder'
 
 ## Requirements
 
-Swift 4
+Swift 5
 
 ## Installation
 
